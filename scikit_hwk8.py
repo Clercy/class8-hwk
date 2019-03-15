@@ -44,6 +44,7 @@ for c in data.columns:
             #for f in data.columns:
 
                 #if (c != d) and (c !=e ) and (c != f) and (d != e) and (d != f) and (e != f):
+
                 if (c != d) and (c !=e ) and  (d != e) :
                     ########## Plotter Data Start
 
