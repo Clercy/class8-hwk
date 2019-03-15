@@ -32,16 +32,20 @@ The Linear regression training/testing models returned r_score values of 32 and 
 Docker - How to run the script
 Built my image
 lcler@LAPTOP-D2T6EOO0 MINGW64 ~/Desktop/class8-hwk (master)
+
 $ docker build -t scikit-image8 .
 
 Checked if image was created
 lcler@LAPTOP-D2T6EOO0 MINGW64 ~/Desktop/class8-hwk (master)
+
 $ docker images
+
 REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
 scikit-image8         latest              0c01c97da15c        3 minutes ago       922MB
 
 Running the image
 lcler@LAPTOP-D2T6EOO0 MINGW64 ~/Desktop/class8-hwk (master)
+
 $ docker run -t -v /${PWD}:/${PWD} -w/${PWD} scikit-image8
 
 ....will generate ex.
