@@ -19,7 +19,9 @@ it shows a negative correlation between attributes PTRATIO, CRIM vs MEDV while
 for PTRATIO vs CRIM have a positive correlation.
 
 MEDV - PTRATIO correlation = -0.51
+
 MEDV - CRIM correlation = -0.39
+
 PTRATIO - CRIM correlation = 0.29
 
 Figure GBR_Relative_Importance_2019314213317 uses GradientBoostingRegressor places
